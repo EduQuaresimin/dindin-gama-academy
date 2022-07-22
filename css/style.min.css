@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+header {
+  position: relative;
+  background-color: rgba(46, 148, 138, 1);
+  display: flex;
+  width: 100%;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.25);
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  padding: 0px 20px 0px 0px;
+}
+
+#img-top-logo {
+  padding: 20px 0px 20px 80px;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  padding-right: 60px;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 40px 0px 0px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/*-----------------------------------------------*/
+
+footer {
+  position: relative;
+  background-color: rgba(46, 148, 138, 1);
+  display: flex;
+  width: 100%;
+}
+#img-bot-logo {
+  padding: 50px 0px 50px 120px;
+}
+.foot-select {
+  display: flex;
+  align-items: center;
+  padding-left: 250px;
+  width: 100%;
+}
+.foot-select ul li {
+  padding: 0px 0px 10px 0px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.foot-box {
+  display: flex;
+  padding: 0px 0px 0px 150px;
+  align-items: center;
+  width: 100%;
+}
+
+.foot-box ul li{
+  display: flex;
+  justify-content: center;
+  border-radius: 62px;
+  border: 2px solid white;
+  padding: 10px 50px 10px 50px;
+  margin: 15px 0px;
+  font-weight: 400;
+  font-size: 20px;
+}
+footer nav ul {
+  list-style-type: none;
+}
+footer nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+@media (max-width: 480px) {
+  #img-top-logo{
+    padding: 10px;
+    width: 200px;
+  }
+  header nav{
+    padding: 0px;
+  }
+  header nav ul{
+    padding: 0px;
+  }
+  header nav ul li a{
+
+    padding: 0px 15px;
+    font-size: 16px;
+  }
+  #img-bot-logo{
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 70px;
+    width: 210px;
+  }
+  .foot-select{
+    padding-left: 30px;
+    width: 50%;
+  }
+  .foot-select ul li {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+  .foot-box{
+    padding: 0px;
+  }
+  .foot-box ul li{
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+  br{
+    line-height: 10px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  #img-top-logo{
+    padding: 10px;
+    width: 200px;
+  }
+  header nav{
+    padding: 0px;
+  }
+  header nav ul{
+    padding: 0px;
+  }
+  header nav ul li a{
+
+    padding: 0px 15px;
+    font-size: 16px;
+  }
+  #img-bot-logo{
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 70px;
+    width: 210px;
+  }
+  .foot-select{
+    padding-left: 150px;
+    width: 50%;
+  }
+  .foot-select ul li {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+  .foot-box{
+    padding: 0px 0px 0px 140px;
+  }
+  .foot-box ul li{
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+  br{
+    line-height: 10px;
+  }
+}

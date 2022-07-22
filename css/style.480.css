@@ -1,0 +1,231 @@
+@media (max-width: 480px) {
+  /*-----Pagina Index-----*/
+
+  .index-sec-1 {
+    padding: 0px;
+    text-align: center;
+  }
+  .index-div-1 {
+    display: block;
+  }
+  .index-div-1 article {
+    padding: 100px 0px;
+  }
+  #banner-1 {
+    padding: 0px 0px 50px 0px;
+    width: 70%;
+  }
+  .index-sec-2 {
+    display: block;
+  }
+  #investimento {
+    margin: 0px;
+  }
+  #poupando {
+    margin: 0px;
+  }
+  #independencia {
+    margin: 0px;
+  }
+  .index-sec-2 ul {
+    display: block;
+    height: 100%;
+    text-align: center;
+    padding: 70px 0px 0px 0px;
+  }
+  .index-sec-2 ul li {
+    margin: 0px 65px;
+    padding-bottom: 100px;
+  }
+  .index-sec-3 h1 {
+    text-align: center;
+    padding: 0px;
+    margin: 30px 50px;
+  }
+  .index-sec-3 table {
+    padding-bottom: 100px;
+  }
+  .index-table-1,
+  .index-table-2 {
+    display: block;
+  }
+  .index-table-1 tr td,
+  .index-table-2 tr td {
+    padding: 50px 0px;
+    margin: 0px 30px;
+  }
+  .index-sec-4 {
+    background-color: rgba(246, 246, 246, 1);
+    text-align: center;
+  }
+  .index-sec-4 h1 {
+    font-size: 30px;
+    padding: 90px 80px;
+  }
+  .index-sec-4 ul {
+    display: block;
+    padding-bottom: 30px;
+  }
+  .index-sec-4 ul li {
+    margin-left: 80px;
+    padding-bottom: 60px;
+  }
+  .index-sec-4 ul li h3 {
+    font-size: 20px;
+  }
+  .index-sec-4 ul li p {
+    font-size: 16px;
+  }
+  .index-sec-4 div {
+    padding-bottom: 70px;
+  }
+
+  /*-----Pagina Post-----*/
+
+  .post-sec-1 h1 {
+    font-size: 30px;
+  }
+  .post-sec-1 h5 {
+    font-size: 15px;
+  }
+  .post-article {
+    width: 80%;
+  }
+  .post div h1 {
+    text-align: center;
+  }
+
+  /*-----Pagina Blog-----*/
+
+  .blog-sec-1 {
+    display: block;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .blog-sec-1 article {
+    width: 100%;
+  }
+  .blog-sec-1 article h1 {
+    padding: 120px 0px 40px 0px;
+  }
+  .blog-sec-1 article p {
+    padding-right: 0px;
+  }
+  #img-blog {
+    padding: 0px;
+  }
+  .blog-sec-2 {
+    display: block;
+    width: 100%;
+    padding: 100px 0px;
+  }
+  .blog-sec-2 ul {
+    width: 100%;
+    padding: 0px 0px;
+    margin: 0px;
+    text-align: center;
+    display: block;
+  }
+  .blog-sec-2 ul li iframe {
+    display: flex;
+    width: 360px;
+    height: 170px;
+    margin-left: 60px;
+  }
+
+  /*-----Pagina Contato-----*/
+
+  .contato {
+    display: block;
+  }
+  .contato article {
+    padding: 50px 0px 0px 30px;
+    margin-right: 30px;
+  }
+  #img-contato {
+    display: block;
+    margin-left: 65px;
+    width: 350px;
+    padding: 20px 0px 50px 0px;
+  }
+
+  /*-----Pagina Curso-----*/
+
+  .curso-sec-1 {
+    display: block;
+    padding-left: 0px;
+    margin: 50px 30px;
+  }
+  .curso-sec-1 article {
+    width: 100%;
+    text-align: center;
+  }
+  .curso-sec-1 article h1 {
+    padding-top: 0px;
+    padding-right: 0px;
+  }
+  .curso-sec-1 article p {
+    padding-right: 0px;
+  }
+  #img-investimento {
+    width: 330px;
+    padding: 0px 0px;
+    margin: 50px 45px;
+  }
+  .curso-sec-2 div {
+    display: block;
+    text-align: center;
+    margin: 0px 20px;
+  }
+  .curso-sec-2 div iframe {
+    width: 360px;
+    height: 200px;
+    margin: 0px 40px;
+  }
+  .curso-sec-2 div article {
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  /*-----Pagina Cursos-----*/
+
+  .cursos h1 {
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+  }
+  .cursos h3 {
+    text-align: center;
+    padding: 30px 0px;
+  }
+  .cursos div {
+    align-items: center;
+    padding: 0px;
+  }
+  .cursos div img {
+    height: 100%;
+    width: 200px;
+    margin-left: 20px;
+  }
+  .cursos div aside {
+    padding: 0px 20px;
+  }
+  .cursos div aside h2 {
+    font-size: 25px;
+    padding: 30px 0px 10px 0px;
+  }
+  .cursos div aside p {
+    font-size: 12px;
+    padding: 0px 0px 30px 0px;
+  }
+  .cursos div aside button a {
+    font-size: 14px;
+    padding: 10px 30px 10px 30px;
+  }
+  .cursos hr {
+    height: 3px;
+  }
+  .cursos-div-3 img {
+    padding-bottom: 50px;
+    margin-top: 30px;
+  }
+}

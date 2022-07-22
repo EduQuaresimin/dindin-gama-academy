@@ -1,0 +1,471 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/*-----Pagina Index-----*/
+
+.index {
+  position: relative;
+}
+.index-sec-1 {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.index-div-1 {
+  display: flex;
+}
+.index-div-1 article {
+  padding: 150px 100px 100px 100px;
+  align-items: center;
+}
+.index-div-1 article h1 {
+  color: rgba(255, 64, 129, 1);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 69px;
+}
+.index-div-1 article h3 {
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 31px;
+  padding: 20px 0px 40px 0px;
+}
+.index-div-1 article p a {
+  list-style-type: none;
+  text-decoration: none;
+  color: rgba(255, 64, 129, 1);
+  border: 2px solid rgba(255, 64, 129, 1);
+  border-radius: 62px;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 31px;
+  padding: 5px 30px 8px 30px;
+}
+#banner-1 {
+  padding: 150px 0px 70px 100px;
+}
+.index-sec-2 {
+  justify-content: center;
+  display: flex;
+  background-color: rgba(246, 246, 246, 1);
+}
+#poupando,
+#investimento,
+#independencia {
+  height: 270px;
+}
+#investimento {
+  margin: 0 45px;
+}
+#poupando {
+  margin: 0 50px;
+}
+#independencia {
+  margin: 0 65px;
+}
+.index-sec-2 ul {
+  display: flex;
+  height: 700px;
+  align-items: center;
+  list-style-type: none;
+}
+.index-sec-2 ul li {
+  width: 350px;
+  margin: 0 60px;
+}
+.index-sec-2 ul li h2 {
+  padding: 45px 0px 25px 0px;
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 64, 129, 1);
+  font-weight: 700;
+  font-size: 25px;
+}
+.index-sec-2 ul li h4 {
+  padding: 0px 0px 25px 0px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 17px;
+}
+.index-sec-2 ul li p a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  border: 1px solid rgba(255, 64, 129, 1);
+  border-radius: 62px;
+  background-color: rgba(255, 64, 129, 1);
+  padding: 10px 10px 10px 10px;
+  margin: 0 60px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.index-sec-3 h1 {
+  font-size: 37px;
+  font-weight: 700;
+  color: rgba(0, 150, 136, 1);
+  padding: 120px 0px 0px 150px;
+}
+.index-sec-3 table {
+  padding-bottom: 155px;
+}
+#img-wally,
+#img-jaden,
+#img-whoopi,
+#img-janes {
+  height: 104px;
+  width: 104px;
+}
+.index-table-1,
+.index-table-2 {
+  display: flex;
+}
+.index-table-1 tr td,
+.index-table-2 tr td {
+  display: flex;
+  align-items: center;
+  padding: 80px 0px 0px 150px;
+}
+.index-table-1 tr td aside,
+.index-table-2 tr td aside {
+  padding-left: 30px;
+}
+.index-table-1 tr td aside p,
+.index-table-2 tr td aside p {
+  font-size: 18px;
+  font-weight: 300;
+}
+.index-table-1 tr td aside h5,
+.index-table-2 tr td aside h5 {
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 15px;
+}
+.index-sec-4 {
+  background-color: rgba(246, 246, 246, 1);
+}
+.index-sec-4 h1 {
+  font-size: 43px;
+  font-weight: 700;
+  color: rgba(0, 150, 136, 1);
+  padding: 90px 130px;
+}
+.index-sec-4 ul {
+  display: flex;
+  list-style-type: none;
+  padding-bottom: 100px;
+}
+.index-sec-4 ul li {
+  width: 320px;
+  margin-left: 140px;
+}
+.index-sec-4 ul li h3 {
+  font-size: 27px;
+  font-weight: 700;
+  padding: 10px 0px;
+  color: rgba(0, 150, 136, 1);
+}
+.index-sec-4 ul li p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.index-sec-4 ul li p a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  border: 1px solid rgba(0, 150, 136, 1);
+  border-radius: 62px;
+  background-color: rgba(0, 150, 136, 1);
+  padding: 10px 10px;
+  margin: 0 75px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.index-sec-4 div {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.index-sec-4 div p a {
+  text-decoration: none;
+  color: rgba(255, 64, 129, 1);
+  border: 2px solid rgba(255, 64, 129, 1);
+  border-radius: 62px;
+  padding: 10px 50px;
+  margin: 0 60px;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+/*-----Pagina Cursos-----*/
+
+.cursos h1 {
+  color: rgba(255, 64, 129, 1);
+  font-weight: 700;
+  font-size: 60px;
+  padding: 80px 80px 0px 80px;
+}
+.cursos h3 {
+  color: rgba(85, 85, 85, 1);
+  font-weight: 400;
+  font-size: 20px;
+  padding: 0px 80px 0px 80px;
+}
+.cursos div {
+  padding: 100px 100px 0px 115px;
+  display: flex;
+  justify-content: center;
+}
+.cursos div img {
+  width: 380px;
+}
+.cursos div aside {
+  padding: 20px 100px 0px 100px;
+}
+.cursos div aside h2 {
+  color: rgba(255, 64, 129, 1);
+  font-weight: 700;
+  font-size: 35px;
+  padding: 0px 0px 40px 0px;
+}
+.cursos div aside p {
+  font-weight: 300;
+  font-size: 18px;
+  padding: 0px 0px 75px 0px;
+}
+.cursos div aside button {
+  border: none;
+}
+.cursos div aside button a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid rgba(65, 148, 136, 1);
+  border-radius: 62px;
+  background-color: rgba(65, 148, 136, 1);
+  padding: 15px 50px 15px 50px;
+}
+.cursos hr {
+  display: block;
+  margin-left: 5%;
+  margin-top: 70px;
+  height: 5px;
+  width: 90%;
+  background-color: rgba(196, 196, 196, 1);
+  border: none;
+}
+.cursos-div-3 img {
+  padding-bottom: 200px;
+}
+
+/*-----Pagina Post-----*/
+
+.post-sec-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.post-sec-1 h1 {
+  font-size: 50px;
+  font-weight: 500;
+  color: rgba(255, 64, 129, 1);
+  padding-top: 100px;
+}
+.post-sec-1 h5 {
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(157, 157, 157, 1);
+  padding: 10px 0px 75px 0px;
+}
+.post-article {
+  display: flex;
+  flex-direction: column;
+  width: 1032px;
+}
+.post-article h3 {
+  font-size: 26px;
+  font-weight: 500;
+  padding-top: 100px;
+  color: rgba(65, 148, 136, 1);
+}
+.post-article p {
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 50px;
+}
+.post-article ul {
+  padding-left: 30px;
+  font-weight: 300;
+  list-style-type: circle;
+}
+.post div {
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 64, 129, 1);
+  background-color: rgba(246, 246, 246, 1);
+  padding-top: 70px;
+}
+.post div h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+/*-----Pagina Curso-----*/
+
+.curso-sec-1 {
+  display: flex;
+  padding-left: 250px;
+}
+.curso-sec-1 article {
+  width: 570px;
+}
+.curso-sec-1 article h1 {
+  padding-top: 100px;
+  padding-right: 100px;
+  font-size: 55px;
+  font-weight: 700;
+  color: rgba(255, 64, 129, 1);
+}
+.curso-sec-1 article p {
+  padding-top: 25px;
+  padding-right: 100px;
+  font-size: 20px;
+  font-weight: 300;
+}
+#img-investimento {
+  width: 380px;
+  padding: 90px 0px;
+}
+.curso-sec-2 {
+  background-color: rgba(246, 246, 246, 1);
+}
+.curso-sec-2 div {
+  display: flex;
+  justify-content: center;
+  padding: 75px 0px;
+}
+.curso-sec-2 div iframe {
+  width: 462px;
+  height: 261px;
+}
+.curso-sec-2 div article {
+  width: 500px;
+  padding-left: 75px;
+}
+.curso-sec-2 div article h1 {
+  color: rgba(255, 64, 129, 1);
+  font-size: 35px;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+.curso-sec-2 div article p {
+  font-size: 20px;
+  font-weight: 300;
+}
+.curso hr {
+  display: block;
+  margin-left: 5%;
+  height: 3px;
+  width: 90%;
+  background-color: rgba(196, 196, 196, 1);
+  border: none;
+}
+
+/*-----Pagina Blog-----*/
+
+.blog-sec-1 {
+  display: flex;
+  padding-left: 250px;
+}
+.blog-sec-1 article {
+  width: 590px;
+}
+.blog-sec-1 article h1 {
+  padding: 120px 100px 40px 0px;
+  font-size: 47px;
+  font-weight: 700;
+  color: rgba(0, 150, 136, 1);
+}
+.blog-sec-1 article p {
+  font-size: 20px;
+  font-weight: 300;
+  padding-right: 140px;
+}
+#img-blog {
+  padding: 50px 0px;
+}
+.blog-sec-2 {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(246, 246, 246, 1);
+}
+.blog-sec-2 ul {
+  list-style-type: none;
+  width: 518px;
+  padding: 100px 0px;
+  margin: 0px 60px;
+}
+.blog-sec-2 ul li {
+  padding-bottom: 70px;
+}
+.blog-sec-2 ul li h2 {
+  font-size: 30px;
+  font-weight: 500;
+  color: rgba(255, 64, 129, 1);
+  padding: 20px 0px;
+}
+.blog-sec-2 ul li p {
+  font-size: 17px;
+  font-weight: 300;
+}
+.blog-sec-2 ul li iframe {
+  width: 518px;
+  height: 259px;
+}
+
+/*-----Pagina Contato-----*/
+
+.contato {
+  display: flex;
+}
+.contato article {
+  padding: 110px 200px 100px 150px;
+}
+.contato article h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(255, 64, 129, 1);
+  padding-bottom: 40px;
+}
+.contato article p {
+  margin: 15px 0px;
+  padding: 5px 400px 5px 22px;
+  border: 1px solid rgba(104, 104, 104, 1);
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 400;
+}
+#mensagem {
+  padding: 5px 400px 150px 22px;
+}
+#img-contato {
+  padding: 100px 0px;
+}
+.contato article button {
+  border: 1px solid rgba(255, 64, 129, 1);
+  border-radius: 50px;
+  background-color: rgba(255, 64, 129, 1);
+  padding: 10px 40px;
+}
+.contato article button a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+}
